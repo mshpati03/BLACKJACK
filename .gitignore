@@ -1,0 +1,69 @@
+# =============================================================
+#  Blackjack CV — .gitignore
+# =============================================================
+
+# ---- Python ----
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+dist/
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+blackjack-cv/backend/venv/
+blackjack-cv/frontend/venv/
+
+# ---- Node / React ----
+node_modules/
+blackjack-cv/frontend/node_modules/
+
+# Build output
+blackjack-cv/frontend/build/
+build/
+
+# ---- Environment & secrets ----
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# ---- Editor / IDE ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- Testing / coverage ----
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+
+# ---- Misc ----
+*.bak
+*.tmp
+*.orig
